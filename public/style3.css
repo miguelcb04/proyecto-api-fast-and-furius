@@ -1,0 +1,115 @@
+body {
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('imagenes/img1.wallspic.com-viaje_por_carretera-carretera-viaje-ecorregion-paisaje_natural-1284x2778.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.card1{
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.card1 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.titulo{
+  color: black;
+  text-align: center;
+  /* font-family: 'IBM Plex Sans', sans-serif; */
+  letter-spacing: 5px;
+  font-size: 45px;
+  text-shadow: 3px  3px 3px white,
+               3px  3px 3px white,
+               1px  1px 1px white,
+               0px  3px 3px white;
+               padding-top: 40px;
+}
+
+.titulo{
+  padding-top: 0px;
+  /* opacity: 0.6; */
+}
+
+.card1 .nav .nav2 {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  opacity: 0.6;
+  color: black;
+  margin-top: 30px;
+  
+}
+
+.nav1{
+  padding-top: 20px;
+}
+
+.menu{
+  display: flex;
+  gap: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.character {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.character img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.character-details {
+  flex-grow: 1;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+p {
+  margin: 5px 0;
+}
